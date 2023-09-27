@@ -13,7 +13,9 @@
 /* Defines -----------------------------------------------------------*/
 #define LED_GREEN PB5   // PB5 is AVR pin where green on-board LED 
                         // is connected
-#define LED_BLUE PB0                     
+#define LED_BLUE PB0
+#define SW1 PD7 
+#define SW2 PD4                  
 #define SHORT_DELAY 250 // Delay in milliseconds
 #ifndef F_CPU
 # define F_CPU 16000000 // CPU frequency in Hz required for delay funcs
@@ -29,7 +31,9 @@
 // names. We are using Arduino-style just to simplify the first lab.
 #include "Arduino.h"
 #define PB5 13          // In Arduino world, PB5 is called "13"
-#define PB0 8 
+#define PB0 8
+#define PD7 7
+#define PD4 4 
 // -----
 
 
