@@ -52,7 +52,7 @@
 #include <stdlib.h>         // C library. Needed for number conversions
 
 
-// Goxygen module with assembly functions starts here
+// Doxygen module with assembly functions starts here
 /**
  * @defgroup fryza_asm Assembly functions
  * @brief Function(s) written in AVR Assembly language.
